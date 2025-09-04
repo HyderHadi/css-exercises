@@ -1,1 +1,13 @@
-/* Add CSS Styling */
+.buttProps0 {
+    background-color: black;
+    color: white;
+}
+
+.buttProps1 {
+    background-color: yellow;
+}
+
+.buttProps0, .buttProps1 {
+    font-size: 28px;
+    font-family: Helvetica, "Timew New Roman", sans-serif;
+}
