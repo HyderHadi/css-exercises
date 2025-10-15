@@ -10,8 +10,22 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
 }
 
+.master {
+  display: flex;
+  margin: 32px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 52px;
+}
+
+.text {
+  text-align: center;
+  text-wrap: warp;
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
@@ -23,4 +37,32 @@ img {
   align-items: center;
   justify-content: center;
   background: #eee;
+}
+
+.barberry {
+  display: flex;
+  flex-direction: column;
+    justify-content: baseline;
+  align-items: center;
+}
+
+.chilli {
+  display: flex;
+    flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.pepper {
+  display: flex;
+    flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.saffron {
+  display: flex;
+    flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
 }
